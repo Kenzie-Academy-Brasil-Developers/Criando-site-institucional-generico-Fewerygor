@@ -1,0 +1,19 @@
+.us__container {
+    display: var(--flex);
+    justify-content: var(--space);
+    align-items: var(--center);
+    height: 200px;
+   
+    background: var(--color-primary);
+  }
+  
+  .us__container--h2{
+      width: 200px;
+      padding-left: 200px;
+  }
+  
+  .us__container--p {
+      width: 400px;
+      font-size: var(--size);
+      padding-right: 300px;
+  }

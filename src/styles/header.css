@@ -1,0 +1,24 @@
+.header__container {
+    display: var(--flex);
+    justify-content: var(--space);
+    align-items: var(--center);
+    background-color: var(--color-primary);
+    gap: 771px;
+    position: fixed;
+    height: 100px;
+    width: 100vw;
+}
+
+.header__container p {
+    padding-left: 340px;
+    font-size: 20px;
+}
+
+#buttonModal {
+    margin-right: 400px;
+    padding: 10px 20px;
+    border: 1px solid var(--color-text);
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+
+
+.ask__container {
+    display: var(--flex);
+    justify-content: var(--space);
+    background-color: var(--color-secondary);
+    
+ }
+ 
+ .ask__container--div {
+     width: 300px;
+     padding-left: 250px;
+     display: var(--flex);
+     flex-direction: var(--column);
+ }
+ 
+ .ask__container--div h2{
+     font-size: 30px;
+ }
+ 
+ .ask__container--div p{
+     width: 430px;
+ }
+ 
+ .ask__container--div2 {
+     display: var(--flex);
+     flex-direction: var(--column);
+     text-align: var(--center);
+     width: 400px;
+     font-size: var(--size);
+     padding-right: 370px;
+ }
+ 
+ 
+ .ask__container--span {
+     display: var(--flex);
+     justify-content: var(--center);
+     align-items: var(--center);
+     background-color: var(--color-box);
+     border: 1px solid var(--color-box);
+     color: var(--color-text);
+     padding: 20px;
+     margin-right: 80px;
+ }

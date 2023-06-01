@@ -1,0 +1,21 @@
+@import url('body.css');
+@import url('header.css');
+@import url('about.css');
+@import url('us.css');
+@import url('ask.css');
+@import url('student.css');
+@import url('footer.css');
+@import url('modal.css');
+
+:root {
+    --flex: flex;
+    --center: center;
+    --column: column;
+    --space: space-around;
+    --size: normal;
+    --color-primary: #191C1F;
+    --color-secondary: #212529;
+    --color-box: #4C6EF5;
+    --color-text: #EDF2FF;
+    --color-text2: #CED4DA;
+}

@@ -1,0 +1,6 @@
+footer {
+    display: var(--flex);
+    justify-content: var(--center);
+    background-color: var(--color-primary);
+}
+   

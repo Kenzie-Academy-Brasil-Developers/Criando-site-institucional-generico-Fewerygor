@@ -1,0 +1,43 @@
+.modal__controller {
+    padding: 0;
+    
+}
+
+.modal__container {
+    display: var(--flex);
+    flex-direction: var(--column);
+    background-color: var(--color-secondary);
+    gap: 20px;;
+    width: 504px;
+    height: 397px;
+    padding: 40px 28px 40px 28px;
+}
+
+.modal__container input {
+    background-color: var(--color-primary);
+    color: var(--color-text2);
+    border: 1px solid var(--color-primary);
+    padding: 14px 20px 14px 20px;
+    font-size: 15px;
+}
+
+#button {
+    background-color: var(--color-box);
+    border: 1px solid var(--color-box);
+    padding: 14px 20px 14px 20px;
+    color: var(--color-text);
+}
+
+#buttonClose {
+    color: var(--color-text);
+    background: #343A40;
+    border-radius: 2px;
+    width: 38px;
+    height: 32px;
+    padding: 3px 6px;
+}
+
+.block {
+    display: var(--flex);
+    justify-content: end;
+}

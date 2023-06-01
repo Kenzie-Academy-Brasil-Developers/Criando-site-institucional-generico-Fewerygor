@@ -1,0 +1,13 @@
+body {
+    display: var(--flex);
+    flex-direction: var(--column);
+    margin: 0;
+}
+
+body h1, h2, h3 {
+    color: var(--color-text);
+}
+
+body p {
+    color: var(--color-text2);
+}

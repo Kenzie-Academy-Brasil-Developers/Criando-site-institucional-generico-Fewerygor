@@ -1,0 +1,28 @@
+.about__container {
+    display: var(--flex);
+    flex-direction: var(--column);
+    align-items: var(--center);
+    justify-content: var(--center);
+    height: 581px;
+    gap: 44px;
+    background-color: var(--color-secondary);
+}
+
+.about__container--h1 {
+    font-size: 50px;
+}
+
+.about__container--h1 span {
+    color: var(--color-box);
+}
+
+.about__container p {
+    width: 800px;
+}
+
+.about__container--span {
+    background-color: var(--color-box);
+    border: 1px solid var(--color-box);
+    color: var(--color-text);
+    padding: 20px;
+}

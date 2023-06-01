@@ -1,0 +1,43 @@
+.student__container {
+    display: var(--flex);
+    justify-content: var(--space);
+    background-color: var(--color-secondary);
+}
+
+.div__container {
+    display: var(--flex);
+    align-items: var(--center);
+    font-size: var(--size);
+    width: 800px;
+    padding-left: 260px;
+}
+
+.div__container span {
+    display: var(--flex);
+    flex-direction: var(--column);  
+}
+
+.ul__container li {
+    list-style-type: none;
+}
+
+.ul__container--p{
+    display: var(--flex);
+    font-size: var(--size);
+    width: 400px;
+    padding-left: 50px;
+    color: var(--color-text2); 
+    list-style-type: none;
+    list-style: none;
+}
+
+.div2__container {
+    display: var(--flex);
+    flex-direction: var(--column); 
+    justify-content: var(--center);
+    margin-right: 400px;
+    margin-top: 30px;
+    height: 400px;
+    width: 400px;
+    background-color: var(--color-box);  
+}
