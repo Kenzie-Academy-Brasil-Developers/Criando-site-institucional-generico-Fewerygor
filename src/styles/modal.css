@@ -28,6 +28,12 @@
     color: var(--color-text);
 }
 
+#button:hover {
+    background-color: #12B886;
+    border-color: #12B886;
+    cursor: pointer;
+}
+
 #buttonClose {
     position: absolute;
     top: 56px;
@@ -40,7 +46,11 @@
     padding: 3px 6px;
 }
 
-/* .block {
-    display: var(--flex);
-    justify-content: end;
-} */
+::backdrop {
+    background-color: rgba(25, 28, 31, 0.8);
+}
+
+#buttonClose:hover {
+    border: 1px solid var(--color-text);
+    cursor: pointer;
+}
