@@ -1,16 +1,16 @@
 .modal__controller {
     padding: 0;
-    
+    border: none;
 }
 
 .modal__container {
     display: var(--flex);
     flex-direction: var(--column);
     background-color: var(--color-secondary);
-    gap: 20px;;
+    gap: 20px;
     width: 504px;
     height: 397px;
-    padding: 40px 28px 40px 28px;
+    padding: 15px 28px 15px 28px;
 }
 
 .modal__container input {
@@ -29,6 +29,9 @@
 }
 
 #buttonClose {
+    position: absolute;
+    top: 56px;
+    right: 20px;
     color: var(--color-text);
     background: #343A40;
     border-radius: 2px;
@@ -37,7 +40,7 @@
     padding: 3px 6px;
 }
 
-.block {
+/* .block {
     display: var(--flex);
     justify-content: end;
-}
+} */

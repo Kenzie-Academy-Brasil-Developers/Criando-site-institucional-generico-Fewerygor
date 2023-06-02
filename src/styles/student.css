@@ -8,14 +8,29 @@
     display: var(--flex);
     align-items: var(--center);
     font-size: var(--size);
-    width: 800px;
+    width: 500px;
     padding-left: 260px;
+    margin-bottom: 20px;
 }
 
 .div__container span {
     display: var(--flex);
     flex-direction: var(--column);  
 }
+
+.div__container h3 {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.aluno {
+    /* margin: 2px; */
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 150px;
+}
+
+
 
 .ul__container li {
     list-style-type: none;
@@ -25,7 +40,7 @@
     display: var(--flex);
     font-size: var(--size);
     width: 400px;
-    padding-left: 50px;
+    padding-left: 20px;
     color: var(--color-text2); 
     list-style-type: none;
     list-style: none;
@@ -35,9 +50,26 @@
     display: var(--flex);
     flex-direction: var(--column); 
     justify-content: var(--center);
+    text-align: center;
     margin-right: 400px;
     margin-top: 30px;
     height: 400px;
     width: 400px;
     background-color: var(--color-box);  
 }
+
+.div2__container h2 {
+    font-size: 32px;
+}
+
+.div2__container span {
+    width: 300px;
+    text-align: start;
+    padding-left: 50px;
+}
+
+/* .div2__container p {
+    /* width: 300px; */
+    /* text-align: start;
+    padding-left: 50px;
+} */ 
