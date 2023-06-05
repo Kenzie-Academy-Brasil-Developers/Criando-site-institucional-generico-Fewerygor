@@ -24,7 +24,6 @@
 }
 
 #buttonModal:hover {
-    background-color: var(--color-box);
-    border: none;
+    border-bottom: 2px solid #4C6EF5;
     cursor: pointer;
 }
