@@ -1,0 +1,1 @@
+Neste projeto eu recebi um layout no Figma para um site institucional genérico de um hipotético curso de programação. O objetivo é aplicar os conceitos de CSS que aprendi no início do curso, como position, variáveis no CSS e criação de um modal para a aplicação.
